@@ -3,6 +3,13 @@
 A ComfyUI workflow and custom nodes for generating MiniMax H3 music-video clips
 against an original master song.
 
+Quick Guide:
+- supply the song
+- decide the themes (music videos often rotate around similar locations that are revisited multiple times)
+- make the themes by supplying image references e.g. character, outfit, beach picture
+- For each clip, decide the length (seconds) and assign the theme.
+- write the prompts (I suggest LLM)
+
 ![Generation workflow](docs/workflow-overview.svg)
 
 ## Included
@@ -96,9 +103,6 @@ ComfyUI/output/video/h3_music_video_studio/<project>/clips/
   clip_0001_take_0001_00001-audio.mp4
   clip_0002_take_0001_00001-audio.mp4
 ```
-
-The Qwen prompt-editing panel is not included. The Qwen-based H3 **text encoder**
-remains required for generation.
 
 ## Checks
 
