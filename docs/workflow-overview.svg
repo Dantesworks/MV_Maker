@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="210" viewBox="0 0 1100 210" role="img" aria-label="A master song and reference image banks feed the Clip Director, then H3 generates and saves numbered clips.">
+<rect width="1100" height="210" rx="16" fill="#111827"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<g fill="#1f2937" stroke="#52647d" stroke-width="2">
+<rect x="28" y="25" width="190" height="66" rx="10"/><rect x="28" y="121" width="190" height="66" rx="10"/>
+<rect x="275" y="58" width="240" height="99" rx="10"/><rect x="575" y="58" width="225" height="99" rx="10"/><rect x="860" y="58" width="210" height="99" rx="10"/>
+</g>
+<g stroke="#63c4aa" stroke-width="3" fill="none"><path d="M218 58 H246 V92 H267"/><path d="M218 154 H246 V124 H267"/><path d="M515 107 H567"/><path d="M800 107 H852"/></g>
+<g fill="#63c4aa"><path d="M267 87l9 5-9 5z"/><path d="M267 119l9 5-9 5z"/><path d="M567 102l9 5-9 5z"/><path d="M852 102l9 5-9 5z"/></g>
+<g fill="#f3f4f6" font-size="19"><text x="123" y="64">Master song</text><text x="123" y="160">Reference banks</text><text x="395" y="94">Clip Director</text><text x="687" y="94">MiniMax H3</text><text x="965" y="94">Numbered MP4s</text></g>
+<g fill="#b3c1d4" font-size="14"><text x="395" y="123">Prompt · duration · seed · take</text><text x="687" y="123">Selected images + song slice</text><text x="965" y="123">Project / clip / take</text></g>
+</g></svg>

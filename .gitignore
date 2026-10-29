@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+*.log
+*.safetensors
+*.ckpt
+*.pt
+*.mp3
+*.wav
+*.mp4
+*.mov
+input/
+output/
+temp/
