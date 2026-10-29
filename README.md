@@ -103,22 +103,3 @@ ComfyUI/output/video/h3_music_video_studio/<project>/clips/
   clip_0001_take_0001_00001-audio.mp4
   clip_0002_take_0001_00001-audio.mp4
 ```
-
-## Checks
-
-Run from this repository's root:
-
-```sh
-python -m unittest discover -s tests -p "test_generation.py" -v
-node tests/test_simple_director.mjs
-```
-
-The checks cover explicit per-clip timing, selected-bank routing, reference order,
-the ten-second limit, saved workflow connections and blank media selections.
-They run without loading H3 weights. A complete H3 render still depends on your
-installed model files, node packs and hardware.
-
-The published workflow is a clean copy of the saved generation workflow. Local
-song selections and clip-board state have been cleared; model, sampler,
-resolution and output settings were retained. No songs, reference images, model
-weights or generated clips are distributed here.
